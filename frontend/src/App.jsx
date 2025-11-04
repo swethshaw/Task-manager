@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
-import Home from "./Pages/Home";
-import AllTasks from "./Pages/AllTasks";
-import ImportantTasks from "./Pages/ImportantTasks";
-import CompletedTasks from "./Pages/CompletedTasks";
-import IncompletedTasks from "./Pages/IncompletedTasks";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { authActions } from "./store/auth";
-import Signup from "./Pages/Signup";
-import Login from "./Pages/Login";
+import Home from "./pages/Home";
+import AllTasks from "./pages/AllTasks";
+import ImportantTasks from "./pages/ImportantTasks";
+import CompletedTasks from "./pages/CompletedTasks";
+import IncompletedTasks from "./pages/IncompletedTasks";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
+
 import { useSelector, useDispatch } from "react-redux";
 const App = () => {
   const navigate = useNavigate();
