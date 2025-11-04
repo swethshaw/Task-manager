@@ -5,7 +5,11 @@ require("./conn/conn");
 const cors = require("cors");
 const UserAPI = require("./routes/user");
 const TaskAPI = require("./routes/task");
-app.use(cors());
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+}));
 app.use(express.json());
 app.use("/api/v1", UserAPI);
 app.use("/api/v2", TaskAPI);
