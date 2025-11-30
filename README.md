@@ -47,23 +47,30 @@ cd ../frontend
 npm install
 npm start
 
-💡 Usage
-Open your browser and navigate to the frontend (e.g. http://localhost:3000)
+## 💡 Usage
 
-Use the UI to add new tasks, view tasks list, edit or delete tasks
+- Open your browser and navigate to the frontend (e.g. **http://localhost:3000**)  
+- Use the UI to add new tasks, view the task list, edit or delete tasks  
+- The backend handles data storage and API endpoints  
 
-The backend handles data storage and API endpoints
+---
 
-📚 Contributing
-Feel free to fork this repo, make improvements, and create a pull request.
-If you plan on making major changes — open an issue first so we can discuss.
+## 📚 Contributing
 
-📄 License
-This project is for personal / educational use.
+Feel free to fork this repo, make improvements, and create a pull request.  
+If you plan on making major changes, please open an issue first so we can discuss it.
 
-🙋‍ About & Author
-Created by Sweth.
-Feel free to connect or give feedback via GitHub.
+---
 
-pgsql
-Copy code
+## 📄 License
+
+This project is for personal and educational use.
+
+---
+
+## 🙋‍ About & Author
+
+Created by **Sweth**.  
+Feel free to connect or share feedback on GitHub.
+
+
